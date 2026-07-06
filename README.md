@@ -1,8 +1,8 @@
-# Stores Data Mining Project 🏪📊
+# Stores Data Mining Project 
 
 A data mining analysis of a retail stores dataset, covering Regression, Clustering, Association Rules, and Classification, aimed at understanding the factors that drive sales, profit, and customer behavior across different store branches.
 
-## 📁 Project Contents
+##  Project Contents
 
 The project is a Jupyter Notebook (`last_mining.ipynb`) organized into the following sections:
 
@@ -45,7 +45,7 @@ The project is a Jupyter Notebook (`last_mining.ipynb`) organized into the follo
    - Handling class imbalance using SMOTE
    - Model evaluation with Classification Report and Confusion Matrix
 
-## 🛠️ Technologies & Libraries Used
+##  Technologies & Libraries Used
 
 - **Python**
 - `pandas`, `numpy` – data processing
@@ -56,7 +56,7 @@ The project is a Jupyter Notebook (`last_mining.ipynb`) organized into the follo
 - `mlxtend` – Apriori & association rules
 - `scipy` – hierarchical clustering
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
@@ -79,18 +79,18 @@ The project is a Jupyter Notebook (`last_mining.ipynb`) organized into the follo
    jupyter notebook last_mining.ipynb
    ```
 
-## 📊 Key Findings
+##  Key Findings
 
 - **Location, wages, and advertising** are among the most influential factors affecting sales.
 - Stores are grouped into two main segments: High-Value stores and Lower-Value stores, based on sales, wages, advertising, and staff count.
 - There is a clear relationship between home delivery service and two specific store locations.
 - The Random Forest model performed well in predicting basket value, with an error rate below 10%.
 
-## 📌 Notes
+##  Notes
 
 - The dataset used (`StoresData.xlsx`) is not included in this project; it must be available with the same column names referenced in the code.
 - Some code related to Hierarchical Clustering and Customer Segmentation assumes certain variables (e.g., `behavior_features`) are already defined — make sure to check this before running.
 
-## 📄 License
+##  License
 
 This project is available for educational and research purposes.
